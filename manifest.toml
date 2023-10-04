@@ -1,0 +1,67 @@
+#:schema https://raw.githubusercontent.com/YunoHost/apps/master/schemas/manifest.v2.schema.json
+
+packaging_format = 2
+
+id = "itflow"
+name = "Itflow"
+description.en = "IT documentation, ticketing and accounting system for small MSPs"
+description.fr = "Système de documentation, de billetterie et de comptabilité pour les petits MSP"
+
+version = "1.0~ynh1"
+
+maintainers = ["eric_G"]
+
+[upstream]
+license = "GPL-3.0"
+website = "https://itflow.org/"
+demo = "https://demo.itflow.org/"
+admindoc = "https://docs.itflow.org/installation"
+code = "https://github.com/itflow-org/itflow"
+
+[integration]
+yunohost = ">= 11.2"
+architectures = "all"
+multi_instance = true
+
+ldap = false
+
+sso = false
+
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.path]
+    type = "path"
+    default = "/itflow"
+
+    [install.init_main_permission]
+    type = "group"
+    default = "visitors"
+
+[resources]
+
+    [resources.sources]
+
+        [resources.sources.main]
+        url = "https://github.com/itflow-org/itflow/archive/7e595d943611299c5e91affb8519055f2208a1c8.tar.gz"
+        sha256 = "a7afbb248c46932f128e29002cc168debef1781133346c5faaf3fcbb62df4cbb"
+        autoupdate.upstream = "https://github.com/itflow-org/itflow"
+        autoupdate.strategy = "latest_github_commit"
+
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.permissions]
+    main.url = "/"
+
+    [resources.apt]
+    packages = "php8.2-intl, php8.2-imap, php8.2-mailparse, php8.2-mysqli, php8.2-curl, mariadb-server"
+
+    [resources.database]
+    type = "mysql"
