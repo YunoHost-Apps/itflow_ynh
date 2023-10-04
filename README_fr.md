@@ -16,8 +16,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 ## Vue d’ensemble
 
-Ceci est une fausse description des fonctionalités de l'app
-
+Système de documentation, de billetterie et de comptabilité pour les petits MSP
 
 **Version incluse :** 2023.10.04~ynh1
 
