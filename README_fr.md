@@ -19,7 +19,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 Ceci est une fausse description des fonctionalités de l'app
 
 
-**Version incluse :** 1.0~ynh1
+**Version incluse :** 2023.10.04~ynh1
 
 **Démo :** https://demo.itflow.org/
 
