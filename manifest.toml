@@ -3,7 +3,7 @@
 packaging_format = 2
 
 id = "itflow"
-name = "Itflow"
+name = "ITFlow"
 description.en = "IT documentation, ticketing and accounting system for small MSPs"
 description.fr = "Système de documentation, de billetterie et de comptabilité pour les petits MSP"
 
