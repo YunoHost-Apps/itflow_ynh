@@ -1,1 +1,1 @@
-This is a dummy description of this app features
+IT documentation, ticketing and accounting system for small MSPs.
