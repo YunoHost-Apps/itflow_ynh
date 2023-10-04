@@ -19,7 +19,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 This is a dummy description of this app features
 
 
-**Shipped version:** 1.0~ynh1
+**Shipped version:** 2023.10.04~ynh1
 
 **Demo:** https://demo.itflow.org/
 
