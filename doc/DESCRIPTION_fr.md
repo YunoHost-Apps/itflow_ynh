@@ -1,1 +1,1 @@
-Ceci est une fausse description des fonctionalités de l'app
+Système de documentation, de billetterie et de comptabilité pour les petits MSP
