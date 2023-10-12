@@ -18,7 +18,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 IT documentation, ticketing and accounting system for small MSPs.
 
-**Shipped version:** 2023.10.09~ynh1
+**Shipped version:** 2023.10.12~ynh1
 
 **Demo:** https://demo.itflow.org/
 
