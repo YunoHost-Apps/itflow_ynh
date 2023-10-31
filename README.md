@@ -31,6 +31,7 @@ IT documentation, ticketing and accounting system for small MSPs.
 * Official app website: <https://itflow.org/>
 * Official admin documentation: <https://docs.itflow.org/installation>
 * Upstream app code repository: <https://github.com/itflow-org/itflow>
+* YunoHost Store: <https://apps.yunohost.org/app/itflow>
 * Report a bug: <https://github.com/YunoHost-Apps/itflow_ynh/issues>
 
 ## Developer info
