@@ -18,7 +18,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 IT documentation, ticketing and accounting system for small MSPs.
 
-**Shipped version:** 2023.10.23~ynh1
+**Shipped version:** 2023.10.31~ynh1
 
 **Demo:** https://demo.itflow.org/
 
@@ -31,6 +31,7 @@ IT documentation, ticketing and accounting system for small MSPs.
 * Official app website: <https://itflow.org/>
 * Official admin documentation: <https://docs.itflow.org/installation>
 * Upstream app code repository: <https://github.com/itflow-org/itflow>
+* YunoHost Store: <https://apps.yunohost.org/app/itflow>
 * Report a bug: <https://github.com/YunoHost-Apps/itflow_ynh/issues>
 
 ## Developer info
