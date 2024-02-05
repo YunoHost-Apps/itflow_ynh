@@ -18,7 +18,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 Système de documentation, de billetterie et de comptabilité pour les petits MSP
 
-**Version incluse :** 2024.02.03~ynh1
+**Version incluse :** 2024.02.05~ynh1
 
 **Démo :** https://demo.itflow.org/
 
