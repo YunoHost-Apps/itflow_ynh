@@ -17,10 +17,9 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 ## Vue d’ensemble
 
 Système de documentation, de billetterie et de comptabilité pour les petits MSP
+**Version incluse :** 2024.03.08~ynh1
 
-**Version incluse :** 2024.03.03~ynh1
-
-**Démo :** https://demo.itflow.org/
+**Démo :** <https://demo.itflow.org/>
 
 ## Captures d’écran
 
@@ -28,11 +27,11 @@ Système de documentation, de billetterie et de comptabilité pour les petits MS
 
 ## Documentations et ressources
 
-* Site officiel de l’app : <https://itflow.org/>
-* Documentation officielle de l’admin : <https://docs.itflow.org/installation>
-* Dépôt de code officiel de l’app : <https://github.com/itflow-org/itflow>
-* YunoHost Store: <https://apps.yunohost.org/app/itflow>
-* Signaler un bug : <https://github.com/YunoHost-Apps/itflow_ynh/issues>
+- Site officiel de l’app : <https://itflow.org/>
+- Documentation officielle de l’admin : <https://docs.itflow.org/installation>
+- Dépôt de code officiel de l’app : <https://github.com/itflow-org/itflow>
+- YunoHost Store : <https://apps.yunohost.org/app/itflow>
+- Signaler un bug : <https://github.com/YunoHost-Apps/itflow_ynh/issues>
 
 ## Informations pour les développeurs
 
