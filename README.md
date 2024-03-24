@@ -9,7 +9,7 @@ It shall NOT be edited by hand.
 
 [![Install ITFlow with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=itflow)
 
-*[Lire ce readme en français.](./README_fr.md)*
+*[Read this README is other languages.](./ALL_README.md)*
 
 > *This package allows you to install ITFlow quickly and simply on a YunoHost server.
 If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/install) to learn how to install it.*
@@ -17,10 +17,9 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 ## Overview
 
 IT documentation, ticketing and accounting system for small MSPs.
+**Shipped version:** 2024.03.23~ynh1
 
-**Shipped version:** 2024.03.03~ynh1
-
-**Demo:** https://demo.itflow.org/
+**Demo:** <https://demo.itflow.org/>
 
 ## Screenshots
 
@@ -28,19 +27,20 @@ IT documentation, ticketing and accounting system for small MSPs.
 
 ## Documentation and resources
 
-* Official app website: <https://itflow.org/>
-* Official admin documentation: <https://docs.itflow.org/installation>
-* Upstream app code repository: <https://github.com/itflow-org/itflow>
-* YunoHost Store: <https://apps.yunohost.org/app/itflow>
-* Report a bug: <https://github.com/YunoHost-Apps/itflow_ynh/issues>
+- Official app website: <https://itflow.org/>
+- Official admin documentation: <https://docs.itflow.org/installation>
+- Upstream app code repository: <https://github.com/itflow-org/itflow>
+- YunoHost Store: <https://apps.yunohost.org/app/itflow>
+- Report a bug: <https://github.com/YunoHost-Apps/itflow_ynh/issues>
 
 ## Developer info
 
-Please send your pull request to the [testing branch](https://github.com/YunoHost-Apps/itflow_ynh/tree/testing).
+Please send your pull request to the [testing branch](https://github.com/YunoHost-Apps/itflow_ynh/tree/testing),
+
 
 To try the testing branch, please proceed like that.
 
-``` bash
+```bash
 sudo yunohost app install https://github.com/YunoHost-Apps/itflow_ynh/tree/testing --debug
 or
 sudo yunohost app upgrade itflow -u https://github.com/YunoHost-Apps/itflow_ynh/tree/testing --debug
