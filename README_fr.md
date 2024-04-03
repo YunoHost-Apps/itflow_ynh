@@ -18,7 +18,7 @@ Il NE doit PAS être modifié à la main.
 
 Système de documentation, de billetterie et de comptabilité pour les petits MSP
 
-**Version incluse :** 2024.04.01~ynh1
+**Version incluse :** 2024.04.02~ynh1
 
 **Démo :** <https://demo.itflow.org/>
 
