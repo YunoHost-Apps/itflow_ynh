@@ -9,7 +9,7 @@ It shall NOT be edited by hand.
 
 [![Install ITFlow with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=itflow)
 
-*[Read this README is other languages.](./ALL_README.md)*
+*[Read this README in other languages.](./ALL_README.md)*
 
 > *This package allows you to install ITFlow quickly and simply on a YunoHost server.*  
 > *If you don't have YunoHost, please consult [the guide](https://yunohost.org/install) to learn how to install it.*
@@ -18,7 +18,7 @@ It shall NOT be edited by hand.
 
 IT documentation, ticketing and accounting system for small MSPs.
 
-**Shipped version:** 2024.02.29~ynh1
+**Shipped version:** 2024.04.01~ynh1
 
 **Demo:** <https://demo.itflow.org/>
 
