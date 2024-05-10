@@ -3,7 +3,7 @@
 请勿手动编辑。
 -->
 
-# YunoHost 的 ITFlow
+# YunoHost 上的 ITFlow
 
 [![集成程度](https://dash.yunohost.org/integration/itflow.svg)](https://dash.yunohost.org/appci/app/itflow) ![工作状态](https://ci-apps.yunohost.org/ci/badges/itflow.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/itflow.maintain.svg)
 
@@ -18,7 +18,7 @@
 
 IT documentation, ticketing and accounting system for small MSPs.
 
-**分发版本：** 2024.04.28~ynh1
+**分发版本：** 2024.05.05~ynh1
 
 **演示：** <https://demo.itflow.org/>
 
