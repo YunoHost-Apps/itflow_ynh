@@ -18,7 +18,7 @@ It shall NOT be edited by hand.
 
 IT documentation, ticketing and accounting system for small MSPs.
 
-**Shipped version:** 2024.06.02~ynh1
+**Shipped version:** 2024.06.05~ynh1
 
 **Demo:** <https://demo.itflow.org/>
 
