@@ -18,7 +18,7 @@ EZ editatu eskuz.
 
 IT documentation, ticketing and accounting system for small MSPs.
 
-**Paketatutako bertsioa:** 2024.06.16~ynh1
+**Paketatutako bertsioa:** 2024.06.17~ynh1
 
 **Demoa:** <https://demo.itflow.org/>
 
