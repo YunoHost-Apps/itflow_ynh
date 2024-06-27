@@ -5,7 +5,7 @@ Il NE doit PAS être modifié à la main.
 
 # ITFlow pour YunoHost
 
-[![Niveau d’intégration](https://dash.yunohost.org/integration/itflow.svg)](https://dash.yunohost.org/appci/app/itflow) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/itflow.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/itflow.maintain.svg)
+[![Niveau d’intégration](https://dash.yunohost.org/integration/itflow.svg)](https://ci-apps.yunohost.org/ci/apps/itflow/) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/itflow.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/itflow.maintain.svg)
 
 [![Installer ITFlow avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=itflow)
 
@@ -18,7 +18,7 @@ Il NE doit PAS être modifié à la main.
 
 Système de documentation, de billetterie et de comptabilité pour les petits MSP
 
-**Version incluse :** 2024.06.23~ynh1
+**Version incluse :** 2024.06.26~ynh1
 
 **Démo :** <https://demo.itflow.org/>
 
