@@ -5,7 +5,7 @@ NON debe editarse manualmente.
 
 # ITFlow para YunoHost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/itflow.svg)](https://dash.yunohost.org/appci/app/itflow) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/itflow.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/itflow.maintain.svg)
+[![Nivel de integración](https://dash.yunohost.org/integration/itflow.svg)](https://ci-apps.yunohost.org/ci/apps/itflow/) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/itflow.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/itflow.maintain.svg)
 
 [![Instalar ITFlow con YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=itflow)
 
@@ -18,7 +18,7 @@ NON debe editarse manualmente.
 
 IT documentation, ticketing and accounting system for small MSPs.
 
-**Versión proporcionada:** 2024.06.19~ynh1
+**Versión proporcionada:** 2024.06.29~ynh1
 
 **Demo:** <https://demo.itflow.org/>
 
