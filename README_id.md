@@ -18,7 +18,7 @@ Ini TIDAK boleh diedit dengan tangan.
 
 IT documentation, ticketing and accounting system for small MSPs.
 
-**Versi terkirim:** 2024.07.16~ynh1
+**Versi terkirim:** 2024.07.24~ynh1
 
 **Demo:** <https://demo.itflow.org/>
 
@@ -30,7 +30,7 @@ IT documentation, ticketing and accounting system for small MSPs.
 
 - Website aplikasi resmi: <https://itflow.org/>
 - Dokumentasi admin resmi: <https://docs.itflow.org/installation>
-- Repositori kode aplikasi hulu: <https://github.com/itflow-org/itflow>
+- Depot kode aplikasi hulu: <https://github.com/itflow-org/itflow>
 - Gudang YunoHost: <https://apps.yunohost.org/app/itflow>
 - Laporkan bug: <https://github.com/YunoHost-Apps/itflow_ynh/issues>
 
