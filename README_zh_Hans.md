@@ -18,7 +18,7 @@
 
 IT documentation, ticketing and accounting system for small MSPs.
 
-**分发版本：** 2024.08.25~ynh1
+**分发版本：** 2024.08.29~ynh1
 
 **演示：** <https://demo.itflow.org/>
 
