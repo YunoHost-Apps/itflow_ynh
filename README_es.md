@@ -18,7 +18,7 @@ No se debe editar a mano.
 
 IT documentation, ticketing and accounting system for small MSPs.
 
-**Versión actual:** 2024.09.07~ynh1
+**Versión actual:** 2024.09.14~ynh1
 
 **Demo:** <https://demo.itflow.org/>
 
@@ -36,7 +36,7 @@ IT documentation, ticketing and accounting system for small MSPs.
 
 ## Información para desarrolladores
 
-Por favor enviar sus correcciones a la [`branch testing`](https://github.com/YunoHost-Apps/itflow_ynh/tree/testing
+Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/itflow_ynh/tree/testing).
 
 Para probar la rama `testing`, sigue asÍ:
 
