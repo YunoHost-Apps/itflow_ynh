@@ -5,7 +5,9 @@
 
 # YunoHost 上的 ITFlow
 
-[![集成程度](https://dash.yunohost.org/integration/itflow.svg)](https://ci-apps.yunohost.org/ci/apps/itflow/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/itflow.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/itflow.maintain.svg)
+[![集成程度](https://apps.yunohost.org/badge/integration/itflow)](https://ci-apps.yunohost.org/ci/apps/itflow/)
+![工作状态](https://apps.yunohost.org/badge/state/itflow)
+![维护状态](https://apps.yunohost.org/badge/maintained/itflow)
 
 [![使用 YunoHost 安装 ITFlow](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=itflow)
 
@@ -18,7 +20,7 @@
 
 IT documentation, ticketing and accounting system for small MSPs.
 
-**分发版本：** 2024.11.17~ynh1
+**分发版本：** 2024.11.24~ynh1
 
 **演示：** <https://demo.itflow.org/>
 
