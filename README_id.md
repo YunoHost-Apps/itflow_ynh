@@ -5,7 +5,9 @@ Ini TIDAK boleh diedit dengan tangan.
 
 # ITFlow untuk YunoHost
 
-[![Tingkat integrasi](https://dash.yunohost.org/integration/itflow.svg)](https://ci-apps.yunohost.org/ci/apps/itflow/) ![Status kerja](https://ci-apps.yunohost.org/ci/badges/itflow.status.svg) ![Status pemeliharaan](https://ci-apps.yunohost.org/ci/badges/itflow.maintain.svg)
+[![Tingkat integrasi](https://apps.yunohost.org/badge/integration/itflow)](https://ci-apps.yunohost.org/ci/apps/itflow/)
+![Status kerja](https://apps.yunohost.org/badge/state/itflow)
+![Status pemeliharaan](https://apps.yunohost.org/badge/maintained/itflow)
 
 [![Pasang ITFlow dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=itflow)
 
@@ -18,7 +20,7 @@ Ini TIDAK boleh diedit dengan tangan.
 
 IT documentation, ticketing and accounting system for small MSPs.
 
-**Versi terkirim:** 2024.11.17~ynh1
+**Versi terkirim:** 2024.11.24~ynh1
 
 **Demo:** <https://demo.itflow.org/>
 
