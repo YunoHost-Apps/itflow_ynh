@@ -47,7 +47,7 @@ pushd "$install_dir"
 	--user-name=$admin \
 	--user-email=$email \
 	--user-password=$password \
-	--non-interactive
+	#--non-interactive
 popd
 
 chown -R $app:www-data "$install_dir"
