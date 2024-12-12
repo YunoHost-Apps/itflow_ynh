@@ -37,8 +37,8 @@ ynh_config_add --template="cron" --destination="/etc/cron.d/$app"
 ynh_script_progression "Installing $app..."
 
 pushd "$install_dir"
-	php$php_version setup_cli.php --host="localhost" --database="$db_name" --password="$db_pwd" --username="$db_user" \
-		--base-url="$domain$path" --locale=fr_FR --timezone="$timezone" --currency="EUR" \
+	php$php_version setup_cli.php --host="localhost" --username="$db_user" --password="$db_pwd" --database="$db_name"  \
+		--base-url="$domain$path" --locale="$language" --timezone="$timezone" --currency="EUR" \
 		--company-name="YunoHost" --country="France" --user-name="$admin" --user-email="$email" --user-password="$password" \
 		--non-interactive
 popd
