@@ -24,13 +24,27 @@ ynh_config_add_nginx
 ynh_config_add --template="cron" --destination="/etc/cron.d/$app"
 
 #=================================================
-# ADD A CONFIGURATION
+# INSTALL THE DATABASE
 #=================================================
-#ynh_script_progression "Adding $app's configuration..."
+ynh_script_progression "Installing $app..."
 
-#ynh_config_add --template="config.php" --destination="$install_dir/config.php"
+pushd "$install_dir"
+	php$php_version setup_cli.php --host="localhost" --database="$db_name" --password="$db_pwd" --username="$db_user" \
+	--base-url=$domain$path \
+	--locale=fr_FR \
+	--currency=EUR \
+	--company-name=YunoHost \
+	--country=France \
+	--user-name=$admin \
+	--user-email=$email \
+	--user-password=$password\
+	--non-interactive
+popd
+
+chown -R $app:www-data "$install_dir"
 
 #=================================================
 # END OF SCRIPT
 #=================================================
+
 ynh_script_progression "Installation of $app completed"
