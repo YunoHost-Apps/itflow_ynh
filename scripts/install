@@ -46,7 +46,7 @@ pushd "$install_dir"
 	--country=France \
 	--user-name=$admin \
 	--user-email=$email \
-	--user-password=$password\
+	--user-password=$password \
 	--non-interactive
 popd
 
