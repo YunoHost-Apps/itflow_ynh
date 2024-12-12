@@ -38,16 +38,9 @@ ynh_script_progression "Installing $app..."
 
 pushd "$install_dir"
 	php$php_version setup_cli.php --host="localhost" --database="$db_name" --password="$db_pwd" --username="$db_user" \
-	--base-url=$domain$path \
-	--locale=fr_FR \
-	--timezone=$timezone \
-	--currency=EUR \
-	--company-name=YunoHost \
-	--country=France \
-	--user-name=$admin \
-	--user-email=$email \
-	--user-password=$password \
-	#--non-interactive
+	--base-url="$domain$path" --locale=fr_FR --timezone="$timezone" --currency="EUR" \
+	--company-name="YunoHost" --country="France" --user-name="$admin" --user-email="$email" --user-password="$password" \
+	--non-interactive
 popd
 
 chown -R $app:www-data "$install_dir"
