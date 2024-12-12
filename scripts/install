@@ -40,8 +40,8 @@ pushd "$install_dir"
 	php$php_version setup_cli.php --host="localhost" --database="$db_name" --password="$db_pwd" --username="$db_user" \
 	--base-url=$domain$path \
 	--locale=fr_FR \
+	--timezone=$timezone \
 	--currency=EUR \
-	 --timezone=$timezone \
 	--company-name=YunoHost \
 	--country=France \
 	--user-name=$admin \
