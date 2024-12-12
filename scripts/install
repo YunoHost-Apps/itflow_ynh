@@ -3,7 +3,15 @@
 source _common.sh
 source /usr/share/yunohost/helpers
 
+#=================================================
+# INITIALIZE AND STORE SETTINGS
+#=================================================
+
 ynh_app_setting_set --key=php_upload_max_filesize --value=500M
+
+email=$(ynh_user_get_info --username=$admin --key=mail)
+
+timezone="$(cat /etc/timezone)"
 
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
@@ -33,6 +41,7 @@ pushd "$install_dir"
 	--base-url=$domain$path \
 	--locale=fr_FR \
 	--currency=EUR \
+	 --timezone=$timezone \
 	--company-name=YunoHost \
 	--country=France \
 	--user-name=$admin \
