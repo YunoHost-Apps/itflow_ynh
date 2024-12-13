@@ -3,7 +3,15 @@
 source _common.sh
 source /usr/share/yunohost/helpers
 
+#=================================================
+# INITIALIZE AND STORE SETTINGS
+#=================================================
+
 ynh_app_setting_set --key=php_upload_max_filesize --value=500M
+
+email=$(ynh_user_get_info --username=$admin --key=mail)
+
+timezone="$(cat /etc/timezone)"
 
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
@@ -24,13 +32,20 @@ ynh_config_add_nginx
 ynh_config_add --template="cron" --destination="/etc/cron.d/$app"
 
 #=================================================
-# ADD A CONFIGURATION
+# INSTALL THE DATABASE
 #=================================================
-#ynh_script_progression "Adding $app's configuration..."
+ynh_script_progression "Installing $app..."
 
-#ynh_config_add --template="config.php" --destination="$install_dir/config.php"
+pushd "$install_dir"
+	php$php_version setup_cli.php --host="localhost" --username="$db_user" --password="$db_pwd" --database="$db_name"  \
+		--base-url="$domain$path" --locale="$language" --timezone="$timezone" --currency="EUR" \
+		--company-name="YunoHost" --country="France" --user-name="$admin" --user-email="$email" --user-password="$password" \
+    	--address="" --city="" --state="" --zip="" --phone="" --company-email="" --website="" \
+		--non-interactive
+popd
 
 #=================================================
 # END OF SCRIPT
 #=================================================
+
 ynh_script_progression "Installation of $app completed"
