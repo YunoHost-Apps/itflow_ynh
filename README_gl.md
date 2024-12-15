@@ -20,7 +20,7 @@ NON debe editarse manualmente.
 
 IT documentation, ticketing and accounting system for small MSPs.
 
-**Versión proporcionada:** 2024.12.08~ynh1
+**Versión proporcionada:** 2024.12.14~ynh1
 
 **Demo:** <https://demo.itflow.org/>
 
