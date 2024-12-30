@@ -19,13 +19,12 @@ admindoc = "https://docs.itflow.org/installation"
 code = "https://github.com/itflow-org/itflow"
 
 [integration]
-yunohost = ">= 11.2.29"
+yunohost = ">= 12.0.8"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
 
 ldap = false
-
 sso = false
 
 disk = "50M"
@@ -43,6 +42,19 @@ ram.runtime = "50M"
     [install.init_main_permission]
     type = "group"
     default = "visitors"
+
+    [install.language]
+    ask.en = "Choose the application language"
+    ask.fr = "Choisissez la langue de l'application"
+    type = "select"
+    choices = ["fr_FR", "en_US"]
+    default = "fr_FR"
+
+    [install.admin]
+    type = "user"
+
+    [install.password]
+    type = "password"
 
 [resources]
 
@@ -63,7 +75,7 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "php8.2-intl, php8.2-imap, php8.2-mailparse, php8.2-mysqli, php8.2-curl, mariadb-server"
+    packages = "mariadb-server, php8.3-intl, php8.3-imap, php8.3-mailparse, php8.3-mysqli, php8.3-curl"
 
     [resources.database]
     type = "mysql"
