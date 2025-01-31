@@ -20,7 +20,7 @@ Ini TIDAK boleh diedit dengan tangan.
 
 IT documentation, ticketing and accounting system for small MSPs.
 
-**Versi terkirim:** 2024.12.08~ynh1
+**Versi terkirim:** 2025.01.25~ynh1
 
 **Demo:** <https://demo.itflow.org/>
 
