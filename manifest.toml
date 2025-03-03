@@ -48,11 +48,11 @@ ram.runtime = "50M"
 
     [resources.sources]
 
-        [resources.sources.main]
-        url = "https://github.com/itflow-org/itflow/archive/7e658ee1f29f87c73a49f61a35d8460da799ef8a.tar.gz"
-        sha256 = "923783f4b4732128ff29bf4cda57df7e47b9d33ae18f9aa40fd744b5c4a6ec1d"
-        autoupdate.upstream = "https://github.com/itflow-org/itflow"
-        autoupdate.strategy = "latest_github_commit"
+    [resources.sources.main]
+    url = "https://github.com/itflow-org/itflow/archive/7e658ee1f29f87c73a49f61a35d8460da799ef8a.tar.gz"
+    sha256 = "923783f4b4732128ff29bf4cda57df7e47b9d33ae18f9aa40fd744b5c4a6ec1d"
+    autoupdate.upstream = "https://github.com/itflow-org/itflow"
+    autoupdate.strategy = "latest_github_commit"
 
     [resources.system_user]
 
