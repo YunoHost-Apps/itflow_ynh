@@ -21,7 +21,7 @@
 IT documentation, ticketing and accounting system for small MSPs.
 
 
-**Поставляемая версия:** 2025.03.08~ynh1
+**Поставляемая версия:** 2025.03.29~ynh1
 
 **Демо-версия:** <https://demo.itflow.org/>
 
