@@ -21,7 +21,7 @@ EZ editatu eskuz.
 IT documentation, ticketing and accounting system for small MSPs.
 
 
-**Paketatutako bertsioa:** 2025.03.08~ynh1
+**Paketatutako bertsioa:** 2025.03.29~ynh1
 
 **Demoa:** <https://demo.itflow.org/>
 
@@ -41,7 +41,7 @@ IT documentation, ticketing and accounting system for small MSPs.
 
 Bidali `pull request`a [`testing` abarrera](https://github.com/YunoHost-Apps/itflow_ynh/tree/testing).
 
-`testing` abarra probatzeko, ondorengoa egin:
+`testing` abarra probatzeko, honakoa egin:
 
 ```bash
 sudo yunohost app install https://github.com/YunoHost-Apps/itflow_ynh/tree/testing --debug
