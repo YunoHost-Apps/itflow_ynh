@@ -4,7 +4,7 @@ It shall NOT be edited by hand.
 -->
 
 <h1>
-  <img src="https://raw.githubusercontent.com/YunoHost/apps/master/logos/itflow.png" width="32px" alt="Logo of ITFlow">
+  <img src="https://raw.githubusercontent.com/YunoHost/apps/main/logos/itflow.png" width="32px" alt="Logo of ITFlow">
   ITFlow, packaged for YunoHost
 </h1>
 
@@ -12,7 +12,7 @@ IT documentation, ticketing and accounting system for small MSPs
 
 [![🌐 Official app website](https://img.shields.io/badge/Official_app_website-darkgreen?style=for-the-badge)](https://itflow.org/)
 [![App Demo](https://img.shields.io/badge/App_Demo-blue?style=for-the-badge)](https://demo.itflow.org/)
-![Version: 2025.04.01~ynh1](https://img.shields.io/badge/Version-2025.04.01~ynh1-rgba(0,150,0,1)?style=for-the-badge)
+[![Version: 2025.04.18~ynh1](https://img.shields.io/badge/Version-2025.04.18~ynh1-rgba(0,150,0,1)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/itflow/)
 
 <div align="center">
 <a href="https://apps.yunohost.org/app/itflow"><img height="100px" src="https://github.com/YunoHost/yunohost-artwork/raw/refs/heads/main/badges/neopossum-badges/badge_more_info_on_the_appstore.svg"/></a>
