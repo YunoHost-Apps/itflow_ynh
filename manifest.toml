@@ -7,7 +7,7 @@ name = "ITFlow"
 description.en = "IT documentation, ticketing and accounting system for small MSPs"
 description.fr = "Système de documentation, de billetterie et de comptabilité pour les petits MSP"
 
-version = "2025.06.22~ynh1"
+version = "2025.10.08~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -49,8 +49,8 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
-    url = "https://github.com/itflow-org/itflow/archive/6df04390bb5a990ac768823eb3719f0a47f1099d.tar.gz"
-    sha256 = "380fa6eb1ee263534700c5cb9d88a86bd2c4ec3694a4ac66ced386bf7a80e84d"
+    url = "https://github.com/itflow-org/itflow/archive/0d5bfdafdf43913b9443ac633e9b3b332a0f9414.tar.gz"
+    sha256 = "d50ac23a4edfd3fe6d6a6cb54b8d04ebe9193b1e670bd96ab4915dda3850aa5a"
     autoupdate.upstream = "https://github.com/itflow-org/itflow"
     autoupdate.strategy = "latest_github_commit"
 
