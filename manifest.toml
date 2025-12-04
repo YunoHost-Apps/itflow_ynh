@@ -19,13 +19,12 @@ admindoc = "https://docs.itflow.org/installation"
 code = "https://github.com/itflow-org/itflow"
 
 [integration]
-yunohost = ">= 11.2.29"
+yunohost = ">= 12.1.17"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
 
 ldap = false
-
 sso = false
 
 disk = "50M"
