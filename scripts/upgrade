@@ -10,7 +10,7 @@ ynh_app_setting_set_default --key=php_post_max_size --value=500M
 #=================================================
 ynh_script_progression "Installing $app..."
 
-pushd "$install_dir"
+pushd "$install_dir/scripts"
 	php$php_version setup_cli.php --update --update_db
 popd
 
