@@ -1,13 +1,13 @@
 #!/bin/bash
 
-source _common.sh
 source /usr/share/yunohost/helpers
 
 #=================================================
 # INITIALIZE AND STORE SETTINGS
 #=================================================
 
-ynh_app_setting_set --key=php_upload_max_filesize --value=500M
+ynh_app_setting_set_default --key=php_upload_max_filesize --value=500M
+ynh_app_setting_set_default --key=php_post_max_size --value=500M
 
 email=$(ynh_user_get_info --username=$admin --key=mail)
 

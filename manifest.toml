@@ -7,7 +7,7 @@ name = "ITFlow"
 description.en = "IT documentation, ticketing and accounting system for small MSPs"
 description.fr = "Système de documentation, de billetterie et de comptabilité pour les petits MSP"
 
-version = "2025.01.25~ynh1"
+version = "2025.12.06~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -19,7 +19,7 @@ admindoc = "https://docs.itflow.org/installation"
 code = "https://github.com/itflow-org/itflow"
 
 [integration]
-yunohost = ">= 12.0.8"
+yunohost = ">= 12.1.17"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
@@ -34,10 +34,6 @@ ram.runtime = "50M"
 [install]
     [install.domain]
     type = "domain"
-
-    [install.path]
-    type = "path"
-    default = "/itflow"
 
     [install.init_main_permission]
     type = "group"
@@ -60,11 +56,11 @@ ram.runtime = "50M"
 
     [resources.sources]
 
-        [resources.sources.main]
-        url = "https://github.com/itflow-org/itflow/archive/e8c3cabde74cf6321c16986af59774a8ea82aac4.tar.gz"
-        sha256 = "2bf5610fbc464ce22085ae0de274c00368706696e10c16ee1680ee409a90e306"
-        autoupdate.upstream = "https://github.com/itflow-org/itflow"
-        autoupdate.strategy = "latest_github_commit"
+    [resources.sources.main]
+    url = "https://github.com/itflow-org/itflow/archive/03570ecd049551619c9be0c0e842eb9d058e6bac.tar.gz"
+    sha256 = "2936a1735fe22267023cb72568853d6845f4d7a6ef5844959cf263f838986584"
+    autoupdate.upstream = "https://github.com/itflow-org/itflow"
+    autoupdate.strategy = "latest_github_commit"
 
     [resources.system_user]
 
@@ -75,7 +71,7 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "mariadb-server, php8.3-intl, php8.3-imap, php8.3-mailparse, php8.3-mysqli, php8.3-curl"
+    packages = "mariadb-server, php8.3-intl, php8.3-gd, php8.3-imap, php8.3-mailparse, php8.3-mysqli, php8.3-curl"
 
     [resources.database]
     type = "mysql"
