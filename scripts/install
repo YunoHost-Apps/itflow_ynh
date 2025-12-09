@@ -39,8 +39,8 @@ ynh_script_progression "Installing $app..."
 pushd "$install_dir/scripts"
 	php$php_version setup_cli.php --host="localhost" --username="$db_user" --password="$db_pwd" --database="$db_name"  \
 		--base-url="$domain$path" --locale="$language" --timezone="$timezone" --currency="EUR" \
-		--company-name="YunoHost" --country="France" --user-name="$admin" --user-email="$email" --user-password="$password" \
-    	--address="1 rue essai" --city="Paris" --state="france" --zip="75001" --phone="0123456789" --company-email="$email" --website="www.essai.com" \
+		--company-name="$company_name" --country="$country" --user-name="$admin" --user-email="$email" --user-password="$password" \
+    	--address="$address" --city="$city" --state="$state" --zip="$zip" --phone="$phone" --company-email="$company_email" --website="$website" \
 		--non-interactive
 popd
 
