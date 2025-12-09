@@ -40,7 +40,7 @@ pushd "$install_dir/scripts"
 	php$php_version setup_cli.php --host="localhost" --username="$db_user" --password="$db_pwd" --database="$db_name"  \
 		--base-url="$domain$path" --locale="$language" --timezone="$timezone" --currency="EUR" \
 		--company-name="YunoHost" --country="France" --user-name="$admin" --user-email="$email" --user-password="$password" \
-    	--address="" --city="" --state="" --zip="" --phone="" --company-email="" --website="" \
+    	--address="1 rue essai" --city="Paris" --state="france" --zip="75001" --phone="0123456789" --company-email="$email" --website="www.essai.com" \
 		--non-interactive
 popd
 
