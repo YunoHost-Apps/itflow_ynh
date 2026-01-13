@@ -3,13 +3,16 @@
 source /usr/share/yunohost/helpers
 
 ynh_app_setting_set_default --key=php_upload_max_filesize --value=500M
+ynh_app_setting_set_default --key=php_post_max_size --value=500M
 
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
 #=================================================
-ynh_script_progression "Upgrading source files..."
+ynh_script_progression "Installing $app..."
 
-ynh_setup_source --dest_dir="$install_dir"
+pushd "$install_dir/scripts"
+	php$php_version setup_cli.php --update --update_db
+popd
 
 #=================================================
 # REAPPLY SYSTEM CONFIGURATIONS

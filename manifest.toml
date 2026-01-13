@@ -39,6 +39,63 @@ ram.runtime = "50M"
     type = "group"
     default = "visitors"
 
+    [install.language]
+    ask.en = "Choose the application language"
+    ask.fr = "Choisissez la langue de l'application"
+    type = "select"
+    choices = ["fr_FR", "en_US"]
+    default = "fr_FR"
+
+    [install.admin]
+    type = "user"
+
+    [install.password]
+    type = "password"
+
+    [install.company_name]
+    ask.en = "Choose the company name"
+    ask.fr = "Choisissez le nom de l'entreprise"
+    type = "string"
+
+    [install.address]
+    ask.en = "Choose the company address"
+    ask.fr = "Choisissez l'adresse de l'entreprise"
+    type = "string"
+
+    [install.city]
+        ask.en = "Choose the company city"
+    type = "string"
+    
+    [install.state]
+    ask.en = "Choose the company state"
+    ask.fr = "Choisissez la ville de l'entreprise"
+    type = "string"
+    
+    [install.zip]
+    ask.en = "Choose the company zip code"
+    ask.fr = "Choisissez le code postal de l'entreprise"
+    type = "string"
+    
+    [install.country]
+    ask.en = "Choose the company country"
+    ask.fr = "Choisissez le pays de l'entreprise"
+    type = "string"
+
+    [install.phone]
+    ask.en = "Choose the company phone number"
+    ask.fr = "Choisissez le numéro de téléphone de l'entreprise"
+    type = "string"
+    
+    [install.company_email]
+    ask.en = "Choose the company email"
+    ask.fr = "Choisissez l'adresse e-mail de l'entreprise"
+    type = "string"
+    
+    [install.website]
+    ask.en = "Choose the company website"
+    ask.fr = "Choisissez le site Web de l'entreprise"
+    type = "string"
+
 [resources]
 
     [resources.sources]
